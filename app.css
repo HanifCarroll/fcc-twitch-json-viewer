@@ -1,0 +1,61 @@
+body {
+	background: #e65c00;  /* fallback for old browsers */
+	background: -webkit-linear-gradient(to right, #F9D423, #e65c00);  /* Chrome 10-25, Safari 5.1-6 */
+	background: linear-gradient(to right, #F9D423, #e65c00); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.main {
+	margin: 0 auto;
+	width: 50%;
+	text-align: center;
+}
+
+.buttons {
+	margin-bottom: 20px;
+}
+
+h1 {
+	font-family: 'Shadows Into Light', cursive;
+	font-size: 4em;
+	letter-spacing: .12em;
+}
+
+ul {
+	list-style-type: none;
+	text-align: center;
+	margin: 0;
+	padding: 0;
+}
+
+li {	
+	border: 2px solid white;
+	border-radius: 25px;
+	margin-bottom: 5px;
+	padding-left: 20px;
+}
+
+img {
+	border-radius: 50%;
+	height: auto;
+	width: 50px;
+	margin-right: 50px;
+}
+
+a:link, a:visited, .name {
+	text-decoration: none;
+	color: white;
+}
+
+span {
+  padding: 20px;
+}
+
+@media (max-width: 1000px) {
+  .main {
+    width: 100%;
+  }
+}
+
+.name, .status {
+	margin-top: 2%;
+}
