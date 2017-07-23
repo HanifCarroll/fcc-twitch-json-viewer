@@ -40,9 +40,9 @@ async function getData (streamers) {
 			const game = channelData.stream.channel.game;
 			const status = channelData.stream.channel.status;
 			let online = `${game}: ${status}`;
-			// Ensure text length of 'status' is 59 characters max
-			if (online.length > 59) {
-				online = online.slice(0, 56) + '...';
+			// Ensure text length of 'status' is 48 characters max
+			if (online.length > 51) {
+				online = online.slice(0, 48) + '...';
 			}
 			div.appendChild(span3).innerHTML = `<a href="${twitchURL}" target="_blank">${online}</a>`;
 		} else {
