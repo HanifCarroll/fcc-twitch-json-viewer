@@ -61,14 +61,6 @@ async function getData (streamers) {
 		span1.classList.add('col-xs-2');
 		span2.classList.add('col-xs-3');
 		span3.classList.add('col-xs-7');
-
-    span1.classList.add('col-sm-1');
-		span2.classList.add('col-sm-3');
-		span3.classList.add('col-sm-7');
-     
-    span1.classList.add('col-md-1');
-		span2.classList.add('col-md-3');
-		span3.classList.add('col-md-7');
 	};
 }
 
